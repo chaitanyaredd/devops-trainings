@@ -1,6 +1,6 @@
 # Git-Day-1
 
-# 1. What is a version control system?
+# What is a version control system?
 - A Version control system also referred as source code management
 
 - In simple words
@@ -15,31 +15,39 @@
  	3. Clear case
  	4. Mercurial
 
-# Before we understand what is an version control system? we will discuss what are all the problems that will occur them version control system.
- # Scenario: Just assume you are developer and working in MNC IT company & your manager came to you and told that we have new project from some
- - client and he gave you some inputs to start work on that project.
- - So as a next step what you will do based on the inputs that you received from the manager and client you started working on developing of application.
- - Developer will create a folder in his laptop & will write the code in the files.
- - Once the developer completed first version(v1) of project, developer will set up a meeting with client & manager for reviewing application.
- - During the first version of application review the manager & client are not satisfied with the futures that are present in application. So they suggested few more 
-corrections to your application & new features.
-- So as a next step the developer what will do? 
-Again he will go back to his system and based on the inputs that received from the review meeting he will correct the source code and add new other features, 
-correct or not?
-- After the completion of the code corrections & futures development based on the review-1 meeting and again you are going to set one more review meeting with 
-client and manager to validate V2 code.
-- During the review-2 meeting also there are some more changes suggested by Manager & Client.
-- So again developer what he will do?
-- He will update the code in existing folder based on the review-2 meeting inputs.
-- Again developer will setup review-3 meeting with manager & Client to review V3 application & its code.
-- In this review-3 meeting manager & client said we don't need these changes latest but i want features that presented during the review-1 meeting that are fine.
-- Now it's a big trouble to developer, he can't go back to the exact v1 files of code, correct or not? correct
-- Why correct?
-- There are so many lines of code changed & many files are added, so he can't go back to exactly v1 code.
- New Section 1 Page 1   
-
- There are so many lines of code changed & many files are added, so he can't go back to exactly v1 code.
- V3 ---> V2 ----> V1
+# How the Days Were Before VCS
+
+Imagine a scenario where you are a developer working in an IT company, and your manager assigns you a new project from a client. Here's how the workflow would look without a Version Control System (VCS):
+
+## Scenario:
+1. The manager provides inputs for the project, and based on those inputs, you start developing the application.
+2. You create a folder on your laptop and write the code in files.
+3. Once the first version (v1) of the project is completed, you set up a meeting with the client and manager to review the application.
+
+### Challenges During Reviews:
+- **First Review (v1):**
+  - The client and manager are not satisfied with the features in the application.
+  - They suggest corrections and request additional features.
+
+- **Second Review (v2):**
+  - After implementing the suggested changes and new features, you set up another review meeting.
+  - Again, the client and manager suggest further changes.
+
+- **Third Review (v3):**
+  - You update the code based on the second review and set up a third review meeting.
+  - This time, the client and manager decide they no longer need the latest changes and want the features from the first version (v1).
+
+### The Problem:
+- You cannot go back to the exact code from version v1 because:
+  - Many lines of code have been changed.
+  - New files have been added.
+  - There is no mechanism to track or revert changes.
+
+### Key Takeaways:
+- Without a VCS, it becomes extremely difficult to manage multiple versions of the code.
+- Developers face challenges in rolling back to previous versions when required.
+
+### Visual Representation:
  
 # Problems without VCS
  
