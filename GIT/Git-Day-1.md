@@ -42,12 +42,15 @@ Imagine a scenario where you are a developer working in an IT company, and your 
   - Many lines of code have been changed.
   - New files have been added.
   - There is no mechanism to track or revert changes.
++-------------------+       +-------------------+       +-------------------+
+|   Version 1 (v1)  |       |   Version 2 (v2)  |       |   Version 3 (v3)  |
+| Initial Code Base | ----> | Code Updated with | ----> | Code Updated with |
+|                   |       | New Features      |       | More Features     |
++-------------------+       +-------------------+       +-------------------+ 
 
 ### Key Takeaways:
 - Without a VCS, it becomes extremely difficult to manage multiple versions of the code.
 - Developers face challenges in rolling back to previous versions when required.
-
-### Visual Representation:
  
 # Problems without VCS
  
