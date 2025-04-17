@@ -35,6 +35,14 @@
     - vpc & subnets where to launch instances
     - Integrate with ALB & its target group
     - Provide desired[2], min[2] & max[5] capacity
+    - Update dynamic scaling policies, by adding the cpu usage more than  50% scale-out the instance.
     - Create
 
 - Now applicaiton is accessible from applicaiton load balancer dns name.    
+
+- Now test the scale-out & scale-in features
+  Keep stress on all cpus of ec2 - Run this comamnd on all ec2's
+  stress --cpu $(nproc) --timeout 300 
+
+- After few minitutes new machine created & we can check this activity in the ASG activity log.
+
