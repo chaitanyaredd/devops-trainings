@@ -42,7 +42,7 @@
 
 - Now test the scale-out & scale-in features
   Keep stress on all cpus of ec2 - Run this comamnd on all ec2's
-  stress --cpu $(nproc) --timeout 300 
+  **stress --cpu $(nproc) --timeout 300**
 
 - After few minitutes new machine created & we can check this activity in the ASG activity log.
 
