@@ -41,6 +41,9 @@
     </dependencies>
 
     <build>
+        <!-- Add finalName so Maven produces target/my-java-tomcat-app.war -->
+        <finalName>my-java-tomcat-app</finalName>
+
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
